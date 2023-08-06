@@ -1,0 +1,370 @@
+body {
+    margin: 0px;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.navbar p {
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #354463;
+    margin: 0px;
+}
+.donation-body {
+    background-image: url('../assets/donation/annie-spratt-427340-unsplash.png');
+    background-color: rgba(0,20,50,0.85); 
+    background-size: cover;
+    padding: 32px;
+}
+.donation-quote {
+    margin: 0px auto 25px auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: flood-std;
+    color: #FFFFFF;
+    max-width: 375px;    
+}
+.donation-form {
+    background-color: #354463;
+    padding: 32px;
+    font-family: Helvetica;
+    color: #FFFFFF;
+}
+.error {
+    display: none;
+    font-size: 12px;
+    font-family: inherit;
+    color: red;
+    letter-spacing: 1px;
+}
+.info-head {
+    margin: 0px 0px 16px 0px;
+    font-size: 22px;
+    letter-spacing: 0.44px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.name-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.city-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+}
+.stzip-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+label {
+    font-size: 11px;
+    letter-spacing: 0.44px;
+}
+input {
+    color: inherit;
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 2px solid #C1F7D5;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    color: inherit;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.2;
+    letter-spacing: -0.16px;
+}
+select {
+    color: #C1F7D5;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid #C1F7D5;
+    outline: transparent;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: inherit;
+}
+.pay-head {
+    margin: 56px 0px 17px 0px;
+}
+.expiry-wrapper {
+    width: 46%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+.info-msg {
+    margin: 56px 0px 36px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.pay-button {
+    font-size: 16px;
+    font-family: inherit;
+    color: #354463;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 18px 56px;
+    background-color: #C1F7D5;
+    border: transparent;
+    width: 100%;
+}
+.link-wrapper {
+    margin-top: 24px;
+}
+.back-link {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    color: #C1F7D5;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: #354463;
+    font-family: Helvetica;
+    padding: 68px 32px;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 78px;
+}
+.footer-quote-1 p {
+    margin:0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-us h4 {
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px 0px 11px 0px;
+    letter-spacing: 0.44px;
+}
+.contact-us p {
+    margin: 7px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+}
+.fixed {
+    height: 120px;
+    width: 120px;
+}
+.footer-section h4 {
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px 0px 11px 0px;
+    letter-spacing: 0.44px;
+}
+.footer-section p {
+    margin: 7px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    text-decoration: underline;
+}
+.footer-quote-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-quote-2 p {
+    margin: 0px;
+    font-family: flood-std;
+    font-size: 44px;
+}
+.tab-footer {
+    display: none;
+    justify-content: space-between;
+    padding: 60px 64px;
+    color: #354463;
+    font-family: Helvetica;
+}
+.tab-footer-col {
+    display: flex;
+    flex-direction: column;
+}
+.footer-quote {
+    margin: 0px 0px 2px 0px !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+.tab-footer-block-wrapper {
+    height: 200px;
+    width: 160px;
+}
+.tab-footer-block-wrapper h4 {
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px 0px 11px 0px;
+    letter-spacing: 0.44px;
+}
+.tab-footer-block-wrapper p {
+    margin: 7px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+}
+.link {
+    text-decoration: underline;
+}
+.desk-footer {
+    display: none;
+    padding: 114px 160px 120px 160px;
+}
+.desk-footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+.desk-footer-block-wrapper {
+    height: 200px;
+    width: 200px;
+}
+.desk-footer-block-wrapper h4{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0px 0px 11px 0px;
+    letter-spacing: 0.44px;
+}
+.desk-footer-block-wrapper p {
+    margin: 7px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+}
+.line {
+    width: 140px;
+    height: 1px;
+    background-color: #354463;
+}
+@media only screen and (min-width: 700px) {
+    .navbar p {
+        font-size: 22px;
+    }
+    .donation-body {
+        padding: 64px 64px 80px 64px;
+    }
+    .donation-quote {
+        font-size: 44px;
+    }
+    .donation-form {
+        padding:58px 64px 70px 64px;
+    }
+    .info-head , .pay-head, .info-msg{ 
+        font-size: 28px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input {
+        padding: 20px 0px 10px 0px;
+        font-size: 20px;
+    }
+    input::placeholder {
+        font-size: 20px;
+    }
+    select {
+        padding: 22.5px 0px 10px 0px;
+    }
+    .wrap {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link-wrapper {
+        margin: 0px;
+    }
+    .footer {
+        display: none;
+    }
+    .tab-footer {
+        display: flex;
+    }
+    .footer-quote-2 {
+        align-items: flex-start;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .navbar p {
+        font-size: 28px;
+    }
+    .donation-body {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 80px 160px 128px 160px;
+    }
+    .donation-quote {
+        font-size: 72px;
+    }
+    .donation-form {
+        padding:58px 64px 80px 64px;
+        max-width: 500px;
+    }
+    .info-head , .pay-head, .info-msg{ 
+        font-size: 28px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input {
+        padding: 20px 0px 10px 0px;
+        font-size: 20px;
+    }
+    input::placeholder {
+        font-size: 20px;
+    }
+    select {
+        padding: 22.5px 0px 10px 0px;
+    }
+    .tab-footer {
+        display: none;
+    }
+    .desk-footer {
+        display: flex;
+        justify-content: space-between;
+        color: #354463;
+        font-family: Helvetica;
+    }
+    .footer-quote-2 {
+        align-items: flex-end;
+    }
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="donation-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/sur0fsi.css">
+</head>
+<body>
+    <div class="navbar">
+        <p>The Green</p>
+        <p>Trees Initiative</p>
+    </div>
+    <div class="donation-body">
+        <h1 class="donation-quote">Give HOPE to those Who need It most</h1>
+        <form action="/src/index.html" id="form" class="donation-form">
+            <h2 class="info-head">Your information</h2>
+
+            <div class="form-row">
+                <div class="name-wrapper">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="fname"  placeholder="First name">
+                    <p id="fname-err" class="error"></p>
+                </div>
+                <div class="name-wrapper">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last name">
+                    <p id="lname-err" class="error"></p>
+                </div>
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="address">STREET ADDRESS</label>
+                <input type="text" id="address" name="address" placeholder="Street address">
+                <p id="address-err" class="error">Address is required</p>
+            </div>
+
+            <div class="form-row">
+                <div class="city-wrapper">
+                    <label for="city">CITY</label>
+                    <input type="text" id="city" name="city" placeholder="City name">
+                    <p id="city-err" class="error"></p>
+                </div>
+                <div class="stzip-wrapper">
+                    <label for="state">STATE</label>
+                    <select id="state" name="state">
+                        <option></option>
+                        <option value="al">AL</option>
+                    </select>
+                    <p id="state-err" class="error">State is required</p>
+                </div>
+                <div class="stzip-wrapper">
+                    <label for="zip">ZIP CODE</label>
+                    <input type="text" id="zip" name="zip" placeholder="Zip">
+                    <p id="zip-err" class="error"></p>
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="email">EMAIL ADDRESS</label>
+                <input type="text" id="email" name="email" placeholder="Email address">  
+                <p id="email-err" class="error"></p>  
+            </div>
+
+            <h2 class="pay-head">Payment information</h2>
+
+            <div class="input-wrapper">
+                <label for="credit">CREDIT CARD NUMBER</label>
+                <input type="text" id="credit" name="credit" placeholder="Credit card number">
+                <p id="credit-err" class="error"></p>
+            </div>
+
+            <div class="form-row">
+                <div class="expiry-wrapper">
+                    <label>EXPIRATION DATE</label>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="wrapper">
+                            <input type="number" id="month" name="month" placeholder="MM">
+                            <p id="month-err" class="error"></p>
+                        </div>
+                        <div class="wrapper">
+                            <input type="number" id="year" name="year" placeholder="YYYY">
+                            <p id="year-err" class="error"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <label for="security">SECURITY CODE</label>
+                    <div class="wrapper">
+                        <input type="text" id="security" name="security" placeholder="CVC">
+                        <p id="security-err" class="error"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="info-msg">
+                Click the button to confirm your donation of $10, recurring monthly.
+            </p>
+
+            <div class="wrap">
+                <div class="button-wrapper">
+                    <button type="submit" class="pay-button">Process Payment</button>
+                </div>
+    
+                <div class="link-wrapper">
+                    <a href="" class="back-link">Go back</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-quote-1 fixed">
+                <p>The Green</p>
+                <p>Trees</p>
+                <p>Initiative</p>
+            </div>
+            <div class="contact-us fixed">
+                <h4>CONTACT US</h4>
+                <p>123 Anywhere St.</p>
+                <p>Cityname, NY 11206</p>
+                <p>(123) 456-7890</p>
+                <p>contact@npo.org</p>
+            </div>
+        </div>
+        
+        <div class="footer-row">
+            <div class="footer-section fixed">
+                <h4>FOLLOW US</h4>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Medium</p>
+            </div>
+            <div class="footer-section fixed">
+                <h4>LEARN MORE</h4>
+                <p>The issue</p>
+                <p>How we help</p>
+                <p>Get involved</p>
+                <p>Latest news</p>
+            </div>
+        </div>   
+        <div class="footer-quote-2">
+            <p>#STOP</p>
+            <p>CLIMATE</p>
+            <p>CHANGE</p>
+        </div>
+    </div>
+
+    <div class="tab-footer">
+        <div class="tab-footer-col">
+            <div class="tab-footer-block-wrapper">
+                <p class="footer-quote">The Green</p>
+                <p class="footer-quote">Trees Initiative</p>
+            </div>
+        </div>
+        <div class="tab-footer-col">
+            <div class="tab-footer-block-wrapper">
+                <h4>CONTACT US</h4>
+                <p>123 Anywhere St.</p>
+                <p>Cityname, NY 11206</p>
+                <p>(123) 456-7890</p>
+                <p>contact@npo.org</p>
+            </div>
+            <div class="tab-footer-block-wrapper">
+                <h4>LEARN MORE</h4>
+                <p class="link">The issue</p>
+                <p class="link">How we help</p>
+                <p class="link">Get involved</p>
+                <p class="link">Latest news</p>
+            </div>
+        </div>
+        <div class="tab-footer-col">
+            <div class="tab-footer-block-wrapper">
+                <h4>FOLLOW US</h4>
+                <p class="link">Facebook</p>
+                <p class="link">Twitter</p>
+                <p class="link">Instagram</p>
+                <p class="link">Medium</p> 
+            </div>
+            <div class="footer-quote-2">
+                <p>#STOP</p>
+                <p>CLIMATE</p>
+                <p>CHANGE</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="desk-footer">
+        <div class="desk-footer-block-wrapper">
+            <p class="footer-quote">The Green</p>
+            <p class="footer-quote">Trees Initiative</p>
+        </div>
+
+        <div class="desk-footer-row">
+            <div class="desk-footer-block-wrapper">
+                <h4>CONTACT US</h4>
+                <div class="line"></div>
+                <p>123 Anywhere St.</p>
+                <p>Cityname, NY 11206</p>
+                <p>(123) 456-7890</p>
+                <p>contact@npo.org</p>
+            </div>
+            <div class="desk-footer-block-wrapper">
+                <h4>LINKS</h4>
+                <div class="line"></div>
+                <p>The issue</p>
+                <p>How we help</p>
+                <p>Get involved</p>
+                <p>Latest news</p>
+            </div>
+            <div class="desk-footer-block-wrapper">
+                <h4>FOLLOW US</h4>
+                <div class="line"></div>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Medium</p>
+            </div>
+        </div>
+        <div class="footer-quote-2">
+            <p>#STOP</p>
+            <p>CLIMATE</p>
+            <p>CHANGE</p>
+        </div>
+    </div>
+
+    <script src="donation-page.js"></script>
+</body>
